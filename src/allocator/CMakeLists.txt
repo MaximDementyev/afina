@@ -2,6 +2,7 @@
 set(SOURCE_FILES
     Simple.cpp
     Pointer.cpp
+	Simple_private.cpp
 )
 
 add_library(Allocator ${SOURCE_FILES})
